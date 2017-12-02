@@ -51,6 +51,14 @@ import groovy.transform.Field
             "presence"
         ]
     ],
+    "bulb": [
+        name: "Bulb",
+        capability: "capability.bulb",
+        attributes: [
+            "switch"
+        ],
+        action: "actionOnOff"
+    ],
     "button": [
         name: "Button",
         capability: "capability.button",
